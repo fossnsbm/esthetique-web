@@ -1,38 +1,193 @@
-.App {
-  text-align: center;
+
+body{
+  background-color: #0D324D;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.avatarImage{
+    width: 202px;
+    height: 202px;
+    left: 623px;
+    top: 2499px;
+    background-size: contain;
+    object-fit: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.mcontainer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.mcontainerLast{
+   display: flex;
+}
+
+.avatarImage{
+  flex-grow: 1
+}
+
+.bordInfo{
+  color: white;
+  margin-left: 20px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: -10%;
+  
+/* identical to box height */
+}
+
+
+.lastboardInfo{
+  margin-left: 100px;
+
+  color: white;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  flex:auto;
+}
+
+.bordInfoleft{
+  color: white;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: -20%;
+  flex-direction: none;
+}
+
+.lastrow-right{
+  margin-left: 10px;
+}
+
+.hide{
+  width: 200px !important;
+  height: 200px  !important;
+}
+
+.top-first{
+  border-radius: 45px 0px 45px 45px;
+}
+
+.center-left{
+  border-radius: 45px 45px 45px 0px;
+}
+
+.center-img{
+  border-radius: 0px 45px;
+}
+
+.bottom-center{
+  border-radius: 45px 45px 0px 45px;
+}
+
+.bottom-right{
+  border-radius: 45px 0px 0px 45px;
+}
+
+.headerContent{
+  margin-left: -50%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.rootClassforTeam{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 20%;
+    margin-top: -15%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headerContent h1{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+
+/* identical to box height */
 }
+
+.headerContent p {
+
+  width: 367px;
+  left: 118px;
+  top: 2500px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 120%;
+
+/* or 38px */
+}
+
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+
+  .mcontainer{
+    width: 100% !important;
+  }
+
+  .MuiGrid-grid-xs-4 {
+    flex-grow: 0;
+    max-width: 0% !important;
+    flex-basis: 0% !important;
+  }
+  .thirdCard{
+    margin-top: 50% !important;
+  }
+  .hide{
+    display: none;
+  }
+
+  .lastRowFix{
+    margin-top: 220px;
+    margin-left: -150px;
+  }
+  .avatarImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .marginOnMobile{
+    margin-left: 30%;
+  }
+
+  .bordInfo{
+    display: none;
+  }
+  .bordInfoleft{
+    display: none;
+  }
+
+  .center-img{
+    margin-top: 15%;
+  }
+
+  .headerContent{
+    margin-left: 0% ;
+  }
+  .rootClassforTeam{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 5%;
+    margin-top: -10%;
+}
+}
+
