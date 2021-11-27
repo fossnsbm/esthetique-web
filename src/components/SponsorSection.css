@@ -1,57 +1,24 @@
-
-  /* .Rectangle{
-    padding-left: 50px;
-    padding-right: 50px;
-    background: #173D58;
-    background-position: center;
-  }
-  
-  .PrizeHeading{
+  .SponsorHeading{
     font-size: 8vw;
     font-weight: bold;
     font-size: 60px;
     color: #ffffff;
     margin-top: 40px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
   }
-  
-  .PrizePara{
-    font-size: 1.8em;
-    width: 70vw;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 45px;
-  
-    color: #ffffff;
-    margin-top: 15px;
+
+  .SponsorName{
+    color: white;
+    font-weight: 600;
   }
-  
-  .Prize{
-    text-align: center;
-    
+
+  .SponsorImage{
+    height: 150px;
   }
-  
-  .PrizeImage{
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    align-content: center;
-    align-items: center;
-}
-  
   
   @media screen and (max-width: 600px) {
-    .PrizeHeading {
+    .SponsorHeading {
         font-size: 2.5em;
-        margin-top: 45px;
+        margin-bottom: 20px;
     }
-  
-    .PrizePara{
-      margin-top: 8px;
-      margin-bottom: 10px;
-      font-size: 1.2em;
-      line-height: 28px;
-      width: 100%;
-    }
-  
-  }   */
+  } 
