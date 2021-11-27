@@ -1,0 +1,18 @@
+body {
+  flex: 0;
+  padding: 0;
+  margin: 100px;
+  background: #173d58;
+}
+.wrapper {
+  position: absolute;
+  width: 1220px;
+  height: 457px;
+  left: 117px;
+  text-align: justify;
+}
+
+.header {
+  width: 800px;
+  color: white;
+}
