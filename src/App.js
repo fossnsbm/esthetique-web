@@ -2,6 +2,7 @@ import HomeSection from './components/HomeSection';
 import IntroSection from './components/IntroSection';
 import PrizesSection from './components/PrizesSection';
 import TwitterSection from './components/TwitterSection';
+import Sponsor from './components/Sponsor';
 import './App.css';
 
 
@@ -13,6 +14,7 @@ function App() {
         <HomeSection></HomeSection>
         <IntroSection></IntroSection>
         <PrizesSection></PrizesSection>
+        <Sponsor></Sponsor>
         <TwitterSection></TwitterSection>
       </div>
     </div>
