@@ -1,5 +1,6 @@
 import HomeSection from './components/HomeSection';
 import IntroSection from './components/IntroSection';
+import PrizesSection from './components/PrizesSection';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <div className="BackgroundLogomark" >
         <HomeSection></HomeSection>
         <IntroSection></IntroSection>
+        <PrizesSection></PrizesSection>
       </div>
     </div>
   );

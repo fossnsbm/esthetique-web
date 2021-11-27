@@ -20,9 +20,13 @@
 .App {
     background-color: #0D324D;
     width: 100vw;
-    min-height: 200vh;
+    min-height: 300vh;
 }
 
 .IntroSection{
+    margin-top: 200px;
+}
+
+.PrizesSection{
     margin-top: 200px;
 }

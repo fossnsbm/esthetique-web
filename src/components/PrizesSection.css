@@ -1,0 +1,52 @@
+.Rectangle{
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #173D58;
+  background-position: center;
+}
+
+.PrizeHeading{
+  font-size: 8vw;
+  font-weight: bold;
+  font-size: 60px;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.PrizePara{
+  font-size: 1.8em;
+  width: 70vw;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 45px;
+
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.Prize{
+  text-align: center;
+}
+
+.PrizeImage{
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .PrizeHeading {
+      font-size: 2.5em;
+      margin-top: 45px;
+  }
+
+  .PrizePara{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    line-height: 28px;
+    width: 100%;
+  }
+
+}
