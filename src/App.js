@@ -1,7 +1,7 @@
 import HomeSection from './components/HomeSection';
 import IntroSection from './components/IntroSection';
 import PrizesSection from './components/PrizesSection';
-import TwitterSection from './Twitter';
+import TwitterSection from './components/TwitterSection';
 import './App.css';
 
 
