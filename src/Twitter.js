@@ -1,24 +1,32 @@
 import { Timeline, Tweet } from "react-twitter-widgets";
+import { Grid } from '@mui/material';
 import './Twitter.css';
 
-export const Twitter = () => {
+function TwitterSection() {
   return (
-    <div className="wrapper">
-      <div className="header">
-        <h1>SEE WHAT'S HAPPENING</h1>
-      </div>
-      <div>
-        
-        <Timeline
-          dataSource={{
-            sourceType: "profile",
-            screenName: "fossnsbm",
-          }}
-          options={{
-            height: "600",
-          }}
-        />
-      </div>
+    <div className="TwitterSection">
+      <Grid container direction="row">
+        <Grid item xs={1}></Grid>
+        <Grid item xs={10}>
+          <p className="TwitterHeading">SEE WHAT'S HAPPENING</p>
+        </Grid>
+      </Grid>
+      <Grid container direction="row">
+        <Grid item xs={1}></Grid>
+        <Grid item xs={10}>
+          <Timeline
+            dataSource={{
+              sourceType: "profile",
+              screenName: "fossnsbm",
+            }}
+            options={{
+              height: "600",
+            }}
+          />
+        </Grid>
+      </Grid>
     </div>
   );
 };
+
+export default TwitterSection;

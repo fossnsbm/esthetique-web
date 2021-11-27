@@ -1,18 +1,15 @@
-body {
-  flex: 0;
-  padding: 0;
-  margin: 100px;
-  background: #173d58;
-}
-.wrapper {
-  position: absolute;
-  width: 1220px;
-  height: 457px;
-  left: 117px;
-  text-align: justify;
+.TwitterHeading{
+  font-size: 8vw;
+  font-weight: bold;
+  font-size: 60px;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
-.header {
-  width: 800px;
-  color: white;
+@media screen and (max-width: 600px) {
+  .TwitterHeading {
+      font-size: 2.5em;
+      margin-top: 45px;
+  }
 }
