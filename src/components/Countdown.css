@@ -1,0 +1,21 @@
+.Countdown{
+    font-weight: bold;
+    font-size: 3.5vw;
+    color: white;
+    margin: 0px;
+}
+
+.CountdownChar{
+    font-size: 2.8vw;
+}
+
+@media screen and (max-width: 600px) {
+    .Countdown {
+        margin-top: 15px;
+        font-size: 1.8em;
+    }
+
+    .CountdownChar{
+        font-size: 1.5rem;
+    }
+}
