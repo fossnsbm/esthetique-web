@@ -1,0 +1,182 @@
+.rectangle{
+  position: absolute;
+  width: 95%;
+  height: 77%;
+  left: 32px;
+  top: 1547px;
+
+  background: #173D58;
+}
+.head{
+  position: absolute;
+  width: 190px;
+  height: 72px;
+  left: 186px;
+  /*top: 1610px;*/
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.Lorem{
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud */
+
+    position: absolute;
+    width: 75%;
+    height: 114px;
+    left: 186px;
+    margin-top: 135px;
+    /* top: 1682px; */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200%;
+    line-height: 120%;
+    /* or 38px */
+
+    color: #fffafa;
+}
+.first{
+  position: absolute;
+  width: 119px;
+  height: 39px;
+  left: 271px;
+  margin-top: 370px;
+  /* top: 1950px; */
+  
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  
+  color: #ffffff;
+}
+.Prize1{
+  position: absolute;
+width: 166px;
+height: 38px;
+left: 247px;
+margin-top: 405px;
+/* top: 1989px; */
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+.second{
+  position: absolute;
+  width: 133px;
+  height: 38px;
+  left: 628px;
+  margin-top: 370px;
+  /* top: 1949px; */
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #ffffff;
+}
+.Prize2{
+  position: absolute;
+width: 156px;
+height: 36px;
+left: 616px;
+margin-top: 405px;
+/* top: 1988px; */
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.third{
+  position: absolute;
+  width: 133px;
+  height: 38px;
+  left: 999px;
+  margin-top: 375px;
+  /* top: 1952px; */
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+.Prize3{
+  position: absolute;
+  width: 177px;
+  height: 37px;
+  left: 978px;
+  margin-top: 405px;
+  /* top: 1990px; */
+  
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  
+  color: #FFFFFF;
+}
+.img1{
+  /* Group 5 */
+
+position: absolute;
+width: 288.52px;
+height: 264.57px;
+left: 186px;
+margin-top: 300px;
+/* top: 1880px;    */
+
+
+}
+.img2{
+    /* Group 6 */
+
+position: absolute;
+width: 288.52px;
+height: 264.57px;
+left: 550px;
+margin-top: 300px;
+/* top: 1880px; */
+
+
+
+/* Vector */
+
+
+}
+.img3{
+  /* Group 7 */
+
+position: absolute;
+width: 288.52px;
+height: 264.57px;
+left: 913.48px;
+margin-top: 300px;
+/* top: 1880px; */
+
+}
