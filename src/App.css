@@ -189,5 +189,8 @@ body{
     margin-left: 5%;
     margin-top: -10%;
 }
+.lastboardInfo{
+  display: none;
+}
 }
 
