@@ -1,14 +1,20 @@
-import logo from './logo.svg';
+import HomeSection from './components/HomeSection';
+import IntroSection from './components/IntroSection';
+import PrizesSection from './components/PrizesSection';
+import TwitterSection from './Twitter';
 import './App.css';
-import { Twitter } from './Twitter';
 
 
 function App() {
   return (
     <div className="App">
-      <Twitter/>
-    
-      
+      <div className="GradientEclipse" ></div>
+      <div className="BackgroundLogomark" >
+        <HomeSection></HomeSection>
+        <IntroSection></IntroSection>
+        <PrizesSection></PrizesSection>
+        <TwitterSection></TwitterSection>
+      </div>
     </div>
   );
 }

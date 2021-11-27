@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e92b533a-23d7-40c7-b5f7-0d9cdbee17bc/deploy-status)](https://app.netlify.com/sites/esthetique-web/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
