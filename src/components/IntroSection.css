@@ -1,0 +1,48 @@
+.IntroHeading{
+  font-size: 8vw;
+  font-weight: bold;
+  font-size: 60px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.SubHeading{
+  font-size: 3em;
+  font-weight: 600;
+  color: #11495E;
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  margin-top: 15px;
+}
+
+.IntroPara{
+  font-size: 1.8em;
+  width: 60vw;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 45px;
+
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .IntroHeading {
+      font-size: 2.5em;
+      margin-top: 45px;
+  }
+
+  .SubHeading{
+      margin-top: 15px;
+      font-size: 1.8em;
+  }
+
+  .IntroPara{
+    margin-top: 8px;
+    font-size: 1.2em;
+    line-height: 28px;
+    width: 100%;
+  }
+
+}

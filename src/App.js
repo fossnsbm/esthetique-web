@@ -1,10 +1,15 @@
 import HomeSection from './components/HomeSection';
+import IntroSection from './components/IntroSection';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <HomeSection></HomeSection>
+      <div className="GradientEclipse" ></div>
+      <div className="BackgroundLogomark" >
+        <HomeSection></HomeSection>
+        <IntroSection></IntroSection>
+      </div>
     </div>
   );
 }
