@@ -2,7 +2,8 @@ import HomeSection from './components/HomeSection';
 import IntroSection from './components/IntroSection';
 import PrizesSection from './components/PrizesSection';
 import TwitterSection from './components/TwitterSection';
-import Sponsor from './components/Sponsor';
+import Sponsor from './components/SponsorSection';
+import RegisterSection from './components/RegisterSection';
 import './App.css';
 
 
@@ -16,6 +17,7 @@ function App() {
         <PrizesSection></PrizesSection>
         <Sponsor></Sponsor>
         <TwitterSection></TwitterSection>
+        <RegisterSection></RegisterSection>
       </div>
     </div>
   );
