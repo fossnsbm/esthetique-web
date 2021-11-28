@@ -1,6 +1,6 @@
-import { Timeline } from "react-twitter-widgets";
+// import { Timeline } from "react-twitter-widgets";
 import { Grid } from "@mui/material";
-import "./TwitterSection.css";
+import "./TwitterSection.scss";
 
 function TwitterSection() {
   return (
