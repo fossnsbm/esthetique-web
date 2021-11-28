@@ -27,29 +27,30 @@ body {
 }
 
 .PrizesSection {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
-.TwitterSection{
-    margin-top: 200px;
+.TwitterSection {
+  margin-top: 100px;
 }
 
 .RegisterSection {
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .SponsorSection {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 840px) {
-    .BackgroundLogomark {
-      background-size: 60%;
-    }
+  .BackgroundLogomark {
+    background-size: 60%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .BackgroundLogomark {
-      background-size: 80%;
-    }
+  .BackgroundLogomark {
+    background-size: 80%;
+  }
 }

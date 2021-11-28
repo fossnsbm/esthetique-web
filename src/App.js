@@ -5,6 +5,7 @@ import TwitterSection from "./components/TwitterSection";
 // import SponsorSection from "./components/SponsorSection";
 import RegisterSection from "./components/RegisterSection";
 import NavbarSection from "./components/NavbarSection";
+import FooterSection from "./components/FooterSection";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
           {/* <SponsorSection /> */}
           <TwitterSection />
           <RegisterSection />
+          <FooterSection />
         </div>
       </div>
     </Router>
