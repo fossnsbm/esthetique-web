@@ -13,9 +13,11 @@ function PrizesSection() {
         <Grid item xs={10} className="Rectangle">
           <p className="PrizeHeading">PRIZES</p>
           <p className="PrizePara">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim
-            ad minim veniam, quis nostrud{" "}
+            The winners will be awarded a total cash prize of 15000 LKR and a
+            valuable certificate. The Runners-up and Second Runners-up will
+            receive a cash prize of 12000 LKR and 9000 LKR, respectively. All
+            the participants of this competition will be appreciated with a
+            valuable certificate for their participation.
           </p>
           <Grid container direction="row">
             <Grid className="Prize" item xs={12} md={4}>
