@@ -16,7 +16,7 @@ function RegisterSection() {
                             <h1>Ready for the challenge?</h1>
                         </Grid>
                         <Grid item xs={12} md={3} className="ButtonGrid">
-                            <Button variant="filled" className="RegisterSectionBtn" href="#">Register Now</Button>
+                            <Button variant="filled" className="RegisterSectionBtn" href="https://forms.gle/tT8T4yxTA5bUTvJh6" target="_blank">Register Now</Button>
                         </Grid>
                         <Grid item xs={1}></Grid>
                     </Grid>

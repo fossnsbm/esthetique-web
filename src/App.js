@@ -2,7 +2,7 @@ import HomeSection from './components/HomeSection';
 import IntroSection from './components/IntroSection';
 import PrizesSection from './components/PrizesSection';
 import TwitterSection from './components/TwitterSection';
-import SponsorSection from './components/SponsorSection';
+// import SponsorSection from './components/SponsorSection';
 import RegisterSection from './components/RegisterSection';
 import './App.css';
 
@@ -15,7 +15,7 @@ function App() {
         <HomeSection></HomeSection>
         <IntroSection></IntroSection>
         <PrizesSection></PrizesSection>
-        <SponsorSection></SponsorSection>
+        {/* <SponsorSection></SponsorSection> */}
         <TwitterSection></TwitterSection>
         <RegisterSection></RegisterSection>
       </div>
