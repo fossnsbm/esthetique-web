@@ -1,6 +1,6 @@
-import { Timeline } from "react-twitter-widgets";
-import { Grid } from '@mui/material';
-import './TwitterSection.css';
+// import { Timeline } from "react-twitter-widgets";
+import { Grid } from "@mui/material";
+import "./TwitterSection.scss";
 
 function TwitterSection() {
   return (
@@ -8,25 +8,23 @@ function TwitterSection() {
       <Grid container direction="row">
         <Grid item xs={1}></Grid>
         <Grid item xs={10}>
-          <p className="TwitterHeading">SEE WHAT'S HAPPENING</p>
+          <h1 className="TwitterHeading">SEE WHAT'S HAPPENING</h1>
         </Grid>
       </Grid>
       <Grid container direction="row">
         <Grid item xs={1}></Grid>
         <Grid item xs={10}>
-          <Timeline
-            dataSource={{
-              sourceType: "profile",
-              screenName: "fossnsbm",
-            }}
-            options={{
-              height: "600",
-            }}
-          />
+          <iframe
+            title="esthetique"
+            id="wallsio-iframe"
+            src="https://my.walls.io/zd5vd?nobackground=1&amp;show_header=0"
+            style={{ border: 0, height: "600px", width: "100%" }}
+            loading="lazy"
+          ></iframe>
         </Grid>
       </Grid>
     </div>
   );
-};
+}
 
 export default TwitterSection;
