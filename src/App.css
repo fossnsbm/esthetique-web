@@ -1,43 +1,43 @@
 .GradientEclipse {
-    position: absolute;
-    width: 100%;
-    height: 70vh;
-    background-position: left;
-    background: rgba(28, 141, 143, 0.6);
-    filter: blur(800px);
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  background-position: left;
+  background: rgba(28, 141, 143, 0.6);
+  filter: blur(800px);
 }
 
 .BackgroundLogomark {
-    position: absolute;
-    width: 100%;
-    height: 70vh;
-    background: url('./assets/background-logomark.png');
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position-x: 96%;
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  background: url("./assets/background-logomark.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 96%;
 }
 
 body {
-    background-color: #0D324D;
-    width: 100vw;
+  background-color: #0d324d;
+  width: 100vw;
 }
 
-.IntroSection{
-    margin-top: 200px;
+.IntroSection {
+  margin-top: 200px;
 }
 
-.PrizesSection{
-    margin-top: 200px;
+.PrizesSection {
+  margin-top: 200px;
 }
 
-.TwitterSection{
-    margin-top: 150px;
+.TwitterSection {
+  margin-top: 150px;
 }
 
-.RegisterSection{
-    margin-top: 100px;
+.RegisterSection {
+  margin-top: 100px;
 }
 
-.SponsorSection{
-    margin-top: 150px;
+.SponsorSection {
+  margin-top: 150px;
 }

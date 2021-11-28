@@ -1,16 +1,15 @@
-import * as React from 'react';
-import { Grid } from '@mui/material';
+import * as React from "react";
+import { Grid } from "@mui/material";
 
-import PlatinumSponsor from '../assets/platinum-sponsor.png';
-import './SponsorSection.css';
-
+import PlatinumSponsor from "../assets/platinum-sponsor.png";
+import "./SponsorSection.scss";
 
 function SponsorSection() {
   return (
     <div className="SponsorSection">
       <Grid container direction="row">
         <Grid item xs={1}></Grid>
-        <Grid item xs={10} >
+        <Grid item xs={10}>
           <Grid container direction="row">
             <Grid item xs={12}>
               <p className="SponsorHeading">OUR SPONSORS</p>
@@ -19,7 +18,11 @@ function SponsorSection() {
           <Grid container direction="row" textAlign="center">
             <Grid item xs={12} md={12}>
               <h1 className="SponsorName">Platinum Sponsor</h1>
-              <img className="SponsorImage" src={PlatinumSponsor} alt="Platinum Sponsor" />
+              <img
+                className="SponsorImage"
+                src={PlatinumSponsor}
+                alt="Platinum Sponsor"
+              />
             </Grid>
             {/* <Grid item xs={12} md={4}>
               <h1 className="SponsorName">Gold Sponsor</h1>
@@ -65,7 +68,7 @@ function SponsorSection() {
         </Grid>
         <Grid item xs={1}></Grid>
       </Grid> */}
-    </div >
+    </div>
   );
 }
 export default SponsorSection;

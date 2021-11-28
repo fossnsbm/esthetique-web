@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Button } from "@mui/material";
-import "./RegisterSection.css";
+import "./RegisterSection.scss";
 
 function RegisterSection() {
   return (

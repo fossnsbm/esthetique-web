@@ -1,9 +1,9 @@
-import React from 'react';
-import { Grid } from '@mui/material';
-import PrizeOne from '../assets/prize-1.png';
-import PrizeTwo from '../assets/prize-2.png';
-import PrizeThree from '../assets/prize-3.png';
-import './PrizesSection.css';
+import React from "react";
+import { Grid } from "@mui/material";
+import PrizeOne from "../assets/prize-1.png";
+import PrizeTwo from "../assets/prize-2.png";
+import PrizeThree from "../assets/prize-3.png";
+import "./PrizesSection.scss";
 
 function PrizesSection() {
   return (
@@ -12,7 +12,11 @@ function PrizesSection() {
         <Grid item xs={1}></Grid>
         <Grid item xs={10} className="Rectangle">
           <p className="PrizeHeading">PRIZES</p>
-          <p className="PrizePara">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud </p>
+          <p className="PrizePara">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim
+            ad minim veniam, quis nostrud{" "}
+          </p>
           <Grid container direction="row">
             <Grid className="Prize" item xs={12} md={4}>
               <img className="PrizeImage" src={PrizeOne} alt="1st Prize" />
@@ -42,7 +46,7 @@ function PrizesSection() {
         </Grid>
         <Grid item xs={1}></Grid>
       </Grid>
-    </div >
+    </div>
   );
 }
 

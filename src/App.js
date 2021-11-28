@@ -1,25 +1,29 @@
-import HomeSection from './components/HomeSection';
-import IntroSection from './components/IntroSection';
-import PrizesSection from './components/PrizesSection';
-import TwitterSection from './components/TwitterSection';
-import SponsorSection from './components/SponsorSection';
-import RegisterSection from './components/RegisterSection';
-import './App.css';
-
+import HomeSection from "./components/HomeSection";
+import IntroSection from "./components/IntroSection";
+import PrizesSection from "./components/PrizesSection";
+import TwitterSection from "./components/TwitterSection";
+import SponsorSection from "./components/SponsorSection";
+import RegisterSection from "./components/RegisterSection";
+import NavbarSection from "./components/NavbarSection";
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <div className="GradientEclipse" ></div>
-      <div className="BackgroundLogomark" >
-        <HomeSection></HomeSection>
-        <IntroSection></IntroSection>
-        <PrizesSection></PrizesSection>
-        <SponsorSection></SponsorSection>
-        <TwitterSection></TwitterSection>
-        <RegisterSection></RegisterSection>
+    <Router>
+      <div className="App">
+        <div className="GradientEclipse"></div>
+        <div className="BackgroundLogomark">
+          <NavbarSection />
+          <HomeSection />
+          <IntroSection />
+          <PrizesSection />
+          <SponsorSection />
+          <TwitterSection />
+          <RegisterSection />
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
