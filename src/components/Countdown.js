@@ -13,7 +13,6 @@ const Countdown = ({ deadline }) => {
 
     const getTimeUntil = (deadline) => {
         const time = Date.parse(deadline) - Date.parse(new Date());
-        console.log(time);
         if (time < 0) {
             setDays(0);
             setHours(0);
