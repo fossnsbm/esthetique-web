@@ -1,60 +1,61 @@
-.Register{
-    background-color: white;
-    text-align: left;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 24px;
-    color: rgb(13, 50, 77);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: row;
+.Register {
+  background-color: white;
+  text-align: left;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  color: rgb(13, 50, 77);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
-.RegisterSectionBtn{
-    border-radius: 0px !important;
-     background: rgb(39, 84, 117) !important;
-     font-size: 26px !important;
-     color: white !important;
-     text-transform: none !important;
-     text-align: center;
- }
- 
- .RegisterSectionBtn:hover{
-   background-color: rgb(49, 105, 146) !important;
- }
+.RegisterSectionBtn {
+  border-radius: 0px !important;
+  background: rgb(39, 84, 117) !important;
+  font-size: 26px !important;
+  color: white !important;
+  text-transform: none !important;
+  text-align: center;
+}
 
- .ButtonGrid{
-     text-align: right;
- }
+.RegisterSectionBtn:hover {
+  background-color: rgb(49, 105, 146) !important;
+}
 
- @media screen and (max-width: 899px) {
-    .ButtonGrid{
-        text-align: left;
-    }
-    
-    .Register{
-        padding-top: 0px;
-        padding-left: 30px;
-        padding-bottom: 30px;
-    }
- }
+.ButtonGrid {
+  text-align: right;
+}
 
- @media screen and (max-width: 600px) {
-    .ButtonGrid{
-        text-align: left;
-    }
-    
-    .Register{
-        font-size: 20px;
-        padding-top: 0px;
-        padding-left: 30px;
-        padding-bottom: 30px;
-    }
+@media screen and (max-width: 899px) {
+  .ButtonGrid {
+    text-align: left;
+  }
 
-    .RegisterSectionBtn{
-        font-size: 22px !important;
-    }
- }
+  .Register {
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ButtonGrid {
+    text-align: left;
+  }
+
+  .Register {
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+
+  .RegisterSectionBtn {
+    font-size: 22px !important;
+  }
+}

@@ -5,6 +5,7 @@ import TwitterSection from "./components/TwitterSection";
 // import SponsorSection from "./components/SponsorSection";
 import RegisterSection from "./components/RegisterSection";
 import NavbarSection from "./components/NavbarSection";
+import FooterSection from "./components/FooterSection";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -12,7 +13,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="GradientEclipse"></div>
+        <div className="GradientEclipse" />
         <div className="BackgroundLogomark">
           <NavbarSection />
           <HomeSection />
@@ -20,7 +21,9 @@ function App() {
           <PrizesSection />
           {/* <SponsorSection /> */}
           <TwitterSection />
+          <div className="GradientEclipseFooter" />
           <RegisterSection />
+          <FooterSection />
         </div>
       </div>
     </Router>

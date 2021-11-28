@@ -1,0 +1,98 @@
+.Footer {
+  position: relative;
+}
+
+.Esthetique {
+  font-size: 3em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: -15px !important;
+}
+
+.UIUX {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #11495e;
+  background-color: white;
+  padding: 5px 10px !important;
+  width: max-content;
+}
+
+.footercont {
+  color: white;
+  font-size: 1em;
+  font-weight: normal;
+}
+.footernav {
+  margin-top: 5%;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 4.5%;
+}
+.foot {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: normal;
+}
+
+.FOSS {
+  width: 40%;
+}
+.endbar {
+  width: 100%;
+  height: 6%;
+  background: linear-gradient(to right, #0a263c 45%, #1b7b7c) !important;
+  opacity: 0.5;
+}
+.endbrtxt {
+  font-size: medium;
+  color: #ffffff;
+}
+.endbr {
+  margin-top: 3%;
+}
+
+.socials {
+  > a {
+    margin: 30px 10px;
+    &:first-child {
+      margin: 0 10px 0 0;
+    }
+  }
+  margin: 40px 0 0 0;
+}
+
+.footerNav {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > span {
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+    > a {
+      color: #fff !important;
+      text-decoration: none !important;
+    }
+    margin: 5px auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Footer {
+    text-align: center;
+  }
+  .UIUX {
+    margin: 25px auto;
+  }
+  .socials {
+    margin: 20px 0 0 0;
+  }
+}
