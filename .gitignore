@@ -23,3 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 package-lock.json
+
+folders
+.vscode
+.idea
+.vs
