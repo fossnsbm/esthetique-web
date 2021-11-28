@@ -11,21 +11,20 @@ const Countdown = ({ deadline }) => {
     return num < 10 ? "0" + num : num;
   };
 
-  const getTimeUntil = (deadline) => {
-    const time = Date.parse(deadline) - Date.parse(new Date());
-    console.log(time);
-    if (time < 0) {
-      setDays(0);
-      setHours(0);
-      setMinutes(0);
-      setSeconds(0);
-    } else {
-      setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
-      setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
-      setMinutes(Math.floor((time / 1000 / 60) % 60));
-      setSeconds(Math.floor((time / 1000) % 60));
-    }
-  };
+    const getTimeUntil = (deadline) => {
+        const time = Date.parse(deadline) - Date.parse(new Date());
+        if (time < 0) {
+            setDays(0);
+            setHours(0);
+            setMinutes(0);
+            setSeconds(0);
+        } else {
+            setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
+            setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
+            setMinutes(Math.floor((time / 1000 / 60) % 60));
+            setSeconds(Math.floor((time / 1000) % 60));
+        }
+    };
 
   useEffect(() => {
     setInterval(() => getTimeUntil(deadline), 1000);
