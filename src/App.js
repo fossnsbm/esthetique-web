@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="GradientEclipse"></div>
+        <div className="GradientEclipse" />
         <div className="BackgroundLogomark">
           <NavbarSection />
           <HomeSection />
@@ -21,6 +21,7 @@ function App() {
           <PrizesSection />
           {/* <SponsorSection /> */}
           <TwitterSection />
+          <div className="GradientEclipseFooter" />
           <RegisterSection />
           <FooterSection />
         </div>
