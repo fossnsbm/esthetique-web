@@ -10,16 +10,16 @@
 .BackgroundLogomark {
   position: absolute;
   width: 100%;
-  height: 70vh;
+  height: 200vh;
   background: url("./assets/background-logomark.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 50%;
   background-position-x: 96%;
+  background-position-y: 120px;
 }
 
 body {
   background-color: #0d324d;
-  width: 100vw;
 }
 
 .IntroSection {
@@ -40,4 +40,16 @@ body {
 
 .SponsorSection {
   margin-top: 150px;
+}
+
+@media screen and (max-width: 840px) {
+    .BackgroundLogomark {
+      background-size: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .BackgroundLogomark {
+      background-size: 80%;
+    }
 }

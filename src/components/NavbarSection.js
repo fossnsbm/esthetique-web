@@ -9,7 +9,7 @@ const NavbarSection = () => {
     <div className="navbar">
       <div className="nav">
         <Link to="/">
-          <img width={48} src={logo} className="logo" alt="logo"></img>
+          <img width={50} src={logo} className="logo" alt="logo"></img>
         </Link>
         <div className="navLinks">
           <div className="links">
@@ -20,26 +20,25 @@ const NavbarSection = () => {
             <RSLink activeClass="active" spy smooth to="PrizesSection">
               PRIZES
             </RSLink>
-            <RSLink activeClass="active" spy smooth to="#">
+            {/* <RSLink activeClass="active" spy smooth to="#">
               JUDGES
             </RSLink>
             <RSLink activeClass="active" spy smooth to="SponsorSection">
               SPONSORS
-            </RSLink>
+            </RSLink> */}
           </div>
           <div>
-            <Link
-              to={{
-                pathname: "#",
-              }}
+            <a
+              href="https://forms.gle/tT8T4yxTA5bUTvJh6"
               target="_blank"
+              rel="noreferrer"
             >
               <Button className="navBtn">REGISTER</Button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
