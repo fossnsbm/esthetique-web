@@ -4,6 +4,7 @@ import PrizesSection from './components/PrizesSection';
 import TwitterSection from './components/TwitterSection';
 import SponsorSection from './components/SponsorSection';
 import RegisterSection from './components/RegisterSection';
+import Footer from './components/Footer';
 import './App.css';
 
 
@@ -18,6 +19,7 @@ function App() {
         <SponsorSection></SponsorSection>
         <TwitterSection></TwitterSection>
         <RegisterSection></RegisterSection>
+        <Footer></Footer>
       </div>
     </div>
   );
