@@ -2,7 +2,7 @@ import HomeSection from "./components/HomeSection";
 import IntroSection from "./components/IntroSection";
 import PrizesSection from "./components/PrizesSection";
 import TwitterSection from "./components/TwitterSection";
-// import SponsorSection from "./components/SponsorSection";
+import SponsorSection from "./components/SponsorSection";
 import RegisterSection from "./components/RegisterSection";
 import NavbarSection from "./components/NavbarSection";
 import FooterSection from "./components/FooterSection";
@@ -19,7 +19,7 @@ function App() {
           <HomeSection />
           <IntroSection />
           <PrizesSection />
-          {/* <SponsorSection /> */}
+          <SponsorSection />
           <TwitterSection />
           <div className="GradientEclipseFooter" />
           <RegisterSection />
