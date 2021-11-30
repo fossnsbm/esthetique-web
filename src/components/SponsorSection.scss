@@ -15,10 +15,23 @@
   .SponsorImage{
     height: 150px;
   }
+
+  .MediaPartnerImage{
+    height: "30%"; 
+  }
   
   @media screen and (max-width: 600px) {
     .SponsorHeading {
         font-size: 2.5em;
         margin-bottom: 20px;
     }
+
+
+  .SponsorName{
+    font-size: 1.6em;
+  }
+
+    .MediaPartnerImage{
+      width: 60vw;
+  }
   } 
