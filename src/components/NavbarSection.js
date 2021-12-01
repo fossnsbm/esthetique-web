@@ -20,12 +20,12 @@ const NavbarSection = () => {
             <RSLink activeClass="active" spy smooth to="PrizesSection">
               PRIZES
             </RSLink>
-            {/* <RSLink activeClass="active" spy smooth to="#">
+            {/*} <RSLink activeClass="active" spy smooth to="SponsorSection">
               JUDGES
-            </RSLink>
+            </RSLink>*/}
             <RSLink activeClass="active" spy smooth to="SponsorSection">
               SPONSORS
-            </RSLink> */}
+            </RSLink>
           </div>
           <div>
             <a
