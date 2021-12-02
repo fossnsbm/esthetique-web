@@ -2,7 +2,7 @@ import * as React from "react";
 import { Grid } from "@mui/material";
 
 import PlatinumSponsor from "../assets/platinum-sponsor.png";
-// import SilverSponsor from "../assets/silver-sponsor.png";
+import SilverSponsor from "../assets/silver-sponsor.png";
 import MediaPartner from "../assets/media-partner.png";
 import "./SponsorSection.scss";
 
@@ -18,7 +18,7 @@ function SponsorSection() {
             </Grid>
           </Grid>
           <Grid container direction="row" textAlign="center">
-            <Grid item xs={12} md={12}>
+            <Grid item xs={12} md={6}>
               <h1 className="SponsorName">Platinum Sponsor</h1>
               <img
                 className="SponsorImage"
@@ -26,14 +26,14 @@ function SponsorSection() {
                 alt="Platinum Sponsor"
               />
             </Grid>
-            {/* <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6}>
               <h1 className="SponsorName">Silver Sponsor</h1>
               <img
                 className="SponsorImage"
                 src={SilverSponsor}
                 alt="Silver Sponsor"
               />
-            </Grid> */}
+            </Grid>
             {/*<Grid item xs={12} md={4}>
               <h1 className="SponsorName">Silver Sponsor</h1>
               <img className="PrizeImage" src={PrizeThree} alt="1st Prize" />
@@ -54,7 +54,8 @@ function SponsorSection() {
             <Grid className="Prize" item xs={12} md={2}>
 
               <img className="PrizeImage" src={SilverSponsor} alt="1st Prize" />
-            </Grid>
+            </Grid> */}
+            {/*
             <Grid className="Prize" item xs={12} md={2}>
 
               <img className="PrizeImage" src={SilverSponsor} alt="1st Prize" />
