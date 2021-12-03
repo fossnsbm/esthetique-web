@@ -16,6 +16,12 @@
     height: 150px;
   }
 
+  .GoldImage{
+    height: 90px;
+    background-color: white;
+    padding: 12px;
+  }
+
   .MediaPartnerImage{
     height: "30%"; 
   }
@@ -27,6 +33,10 @@
     }
 
     .SponsorImage{
+      margin-bottom: 40px !important;
+    }
+
+    .GoldImage{
       margin-bottom: 40px !important;
     }
 
