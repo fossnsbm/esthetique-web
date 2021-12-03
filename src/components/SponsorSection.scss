@@ -16,10 +16,26 @@
     height: 150px;
   }
 
+  .GoldImage{
+    height: 90px;
+    background-color: white;
+    padding: 12px;
+  }
+
+  .CoSponsor{
+    height: 100px;
+  }
+
   .MediaPartnerImage{
     height: "30%"; 
   }
   
+  @media screen and (max-width: 899px) {
+    .SponsorName{
+      text-align: center;
+    }
+  }
+
   @media screen and (max-width: 600px) {
     .SponsorHeading {
         font-size: 2.5em;
@@ -30,11 +46,22 @@
       margin-bottom: 40px !important;
     }
 
+    .GoldImage{
+      margin-bottom: 40px !important;
+    }
+
     .SponsorName{
       font-size: 1.6em;
     }
 
     .MediaPartnerImage{
       width: 60vw;
+      margin-bottom: 40px !important;
+    }
+
+    .CoSponsor{
+      width: 60vw;
+      height: auto;
+
     }
   } 

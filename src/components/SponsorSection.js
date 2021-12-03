@@ -1,9 +1,11 @@
 import * as React from "react";
-import { Grid } from "@mui/material";
+import { Grid, Divider } from "@mui/material";
 
 import PlatinumSponsor from "../assets/platinum-sponsor.png";
+import GoldSponsor from "../assets/gold-sponsor.svg";
 import SilverSponsor from "../assets/silver-sponsor.png";
 import MediaPartner from "../assets/media-partner.png";
+import CoSponsorSatriaana from "../assets/co-sponsor-satriaana.png";
 import "./SponsorSection.scss";
 
 function SponsorSection() {
@@ -18,7 +20,7 @@ function SponsorSection() {
             </Grid>
           </Grid>
           <Grid container direction="row" textAlign="center">
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={4}>
               <h1 className="SponsorName">Platinum Sponsor</h1>
               <img
                 className="SponsorImage"
@@ -26,7 +28,15 @@ function SponsorSection() {
                 alt="Platinum Sponsor"
               />
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={4}>
+              <h1 className="SponsorName">Gold Sponsor</h1>
+              <img
+                className="GoldImage"
+                src={GoldSponsor}
+                alt="Gold Sponsor"
+              />
+            </Grid>
+            <Grid item xs={12} md={4}>
               <h1 className="SponsorName">Silver Sponsor</h1>
               <img
                 className="SponsorImage"
@@ -34,10 +44,6 @@ function SponsorSection() {
                 alt="Silver Sponsor"
               />
             </Grid>
-            {/*<Grid item xs={12} md={4}>
-              <h1 className="SponsorName">Silver Sponsor</h1>
-              <img className="PrizeImage" src={PrizeThree} alt="1st Prize" />
-            </Grid> */}
           </Grid>
         </Grid>
         <Grid item xs={1}></Grid>
@@ -46,10 +52,11 @@ function SponsorSection() {
         <Grid item xs={11} >
           <Grid container direction="row" className="Rectangle" marginBottom="-4%">
             {/* <Grid container direction="row">
-              <Grid ClassName="Prize" align="center" marginTop="2%" item xs={12} md={4}>
-                <h1 style={{ color: 'WHITE' }}>Co-sponsors</h1>
-              </Grid>
             </Grid> */}
+            <Grid ClassName="Prize" item xs={12} md={5} marginBottom="4%" marginLeft="4%" marginTop="3%">
+              <h1 className="SponsorName" style={{ color: 'WHITE' }}>Co-sponsor</h1>
+              <img className="CoSponsor" src={CoSponsorSatriaana} alt="1st Prize" />
+            </Grid>
             {/* <Grid className="Prize" item xs={12} md={1}></Grid>
             <Grid className="Prize" item xs={12} md={2}>
 
@@ -65,9 +72,9 @@ function SponsorSection() {
               <img className="PrizeImage" src={SilverSponsor} alt="1st Prize" />
             </Grid> */}
 
-            {/* <Divider sx={{ display: { xs: 'none', sm: 'block' } }} orientation="vertical" style={{ border: "1px solid", borderRadius: "1", color: "white", marginLeft: "2%", marginBottom: "4%" }} flexItem></Divider> */}
+            <Divider sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }} orientation="vertical" style={{ border: "1px solid", borderRadius: "1", color: "white", marginLeft: "2%", marginBottom: "4%", marginTop: "4%" }} flexItem></Divider>
 
-            <Grid className="Prize" item xs={12} md={12} align="center" marginBottom="4%" marginLeft="4%" marginTop="4%">
+            <Grid className="Prize" item xs={12} md={5} align="center" marginBottom="4%" marginLeft="4%" marginTop="3%">
               <h1 className="SponsorName">Official<br />Digital Media Partner</h1>
               <img className="MediaPartnerImage" src={MediaPartner} alt="1st Prize" />
             </Grid>
