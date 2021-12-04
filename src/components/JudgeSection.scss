@@ -1,0 +1,272 @@
+.wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 60px;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.firstRow {
+  display: flex;
+  margin-top: 20px;
+  > div:last-child {
+    margin-top: 90px;
+    margin-left: 90px;
+  }
+}
+
+.content {
+  font-size: 1.8em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 45px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.judgesWrapper {
+  > div:first-child {
+    display: flex;
+    justify-content: center;
+    width: 86%;
+    > div:first-child {
+      display: flex;
+      justify-content: flex-end;
+    }
+    > div:last-child {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+  > div:last-child {
+    display: flex;
+    justify-content: center;
+    margin-left: 135px;
+    width: 90%;
+    > div:first-child {
+      display: flex;
+      justify-content: flex-end;
+    }
+    > div:last-child {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+}
+
+.judge1 {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  > img {
+    margin: 10px 20px 10px 10px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+  }
+  > div > .name {
+    font-weight: bold;
+  }
+  > div > span {
+    font-size: 24px;
+    font-weight: normal;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.judge2 {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+  }
+  > img {
+    margin: 5px 5px 5px 20px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+  }
+  > div > .name {
+    font-weight: bold;
+  }
+  > div > span {
+    font-size: 24px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+}
+
+.judge3 {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  > img {
+    margin: 5px 20px 5px 5px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+  }
+  > div > .name {
+    font-weight: bold;
+  }
+  > div > span {
+    font-size: 24px;
+    font-weight: normal;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.judge4 {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  > img {
+    margin: 5px 5px 5px 20px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+  }
+  > div > .name {
+    font-weight: bold;
+  }
+  > div > span {
+    font-size: 24px;
+    font-weight: normal;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.judge5 {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  > img {
+    margin: 5px 20px 5px 5px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+  }
+  > div > .name {
+    font-weight: bold;
+  }
+  > div > span {
+    font-size: 24px;
+    font-weight: normal;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 964px) {
+  .firstRow {
+    display: block;
+    margin: 0 auto;
+    > div:last-child {
+      margin: 20px auto 0 5%;
+      width: 90%;
+    }
+  }
+  .judgesWrapper {
+    > div:first-child {
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      > div:first-child {
+        display: block;
+        margin: 20px auto;
+      }
+      > div:last-child {
+        display: block;
+        margin: 20px auto;
+      }
+    }
+    > div:last-child {
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      > div:first-child {
+        display: block;
+        margin: 20px auto;
+      }
+      > div:last-child {
+        display: block;
+        margin: 20px auto;
+      }
+    }
+  }
+  .judge2 {
+    max-width: 100% !important;
+    display: flex !important;
+    margin: 20px auto !important;
+    .details {
+      text-align: right;
+    }
+  }
+  .judge3 {
+    max-width: 100% !important;
+    display: flex !important;
+    margin: 20px auto !important;
+    .details {
+      text-align: left;
+    }
+  }
+  .judge4 {
+    max-width: 100% !important;
+    display: flex !important;
+    margin: 20px auto !important;
+    .details {
+      text-align: right;
+    }
+  }
+  .judge5 {
+    max-width: 100% !important;
+    display: flex !important;
+    margin: 20px auto !important;
+    .details {
+      text-align: right;
+    }
+  }
+}
+
+@media only screen and (min-width: 964px) {
+  .content {
+    width: 35%;
+  }
+}
