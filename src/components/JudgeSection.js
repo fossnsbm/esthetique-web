@@ -3,7 +3,7 @@ import "./JudgeSection.scss";
 
 export default function JudgeSection() {
   return (
-    <div className="wrapper">
+    <div className="wrapper JudgeSection">
       <div className="title">MEET THE PANEL</div>
       <div className="firstRow">
         <div className="content">Meet Our Judge Panel of ESTHÉTIQUE'21</div>
