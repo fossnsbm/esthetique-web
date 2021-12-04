@@ -53,18 +53,28 @@ export default function JudgeSection() {
         <div>
           <div className="judge4">
             <div className="details">
-              <span className="name">John Doe</span>
-              <span>UI/ UX Engineer at</span>
-              <span>Company A</span>
+              <span className="name">Ishanka T Senavirathna</span>
+              <span>Co-Founder & UX Designer at</span>
+              <span>Codezilla</span>
             </div>
-            <img src="https://i.pravatar.cc/150?img=4" alt="judge4" />
+            <img
+              src="https://media-exp1.licdn.com/dms/image/C4E03AQGBTt6GFqv4Iw/profile-displayphoto-shrink_800_800/0/1615605865493?e=1643846400&v=beta&t=ANdVLLn6sHip-tQFRyYmQmqY9XdX7-uoILCtPCG7XZE"
+              alt="Ishanka T Senavirathna"
+              width="150"
+              height="150"
+            />
           </div>
           <div className="judge5">
-            <img src="https://i.pravatar.cc/150?img=5" alt="judge5" />
+            <img
+              src="https://www.nsbm.ac.lk/wp-content/uploads/2021/03/E87A2514.jpg"
+              alt="Pramudya Thilakaratne"
+              width="150"
+              height="150"
+            />
             <div className="details">
-              <span className="name">John Doe</span>
-              <span>UI/ UX Engineer at</span>
-              <span>Company A</span>
+              <span className="name">Pramudya Thilakaratne</span>
+              <span>Lecturer at</span>
+              <span>NSBM Green University</span>
             </div>
           </div>
         </div>

@@ -33,7 +33,7 @@
   > div:first-child {
     display: flex;
     justify-content: center;
-    width: 86%;
+    width: 87%;
     > div:first-child {
       display: flex;
       justify-content: flex-end;
@@ -78,7 +78,7 @@
     font-weight: bold;
   }
   > div > span {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: normal;
     color: #ffffff;
     display: flex;
@@ -107,7 +107,7 @@
     font-weight: bold;
   }
   > div > span {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: normal;
     color: #ffffff;
   }
@@ -131,7 +131,7 @@
     font-weight: bold;
   }
   > div > span {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: normal;
     color: #ffffff;
     display: flex;
@@ -148,6 +148,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    text-align: right;
   }
   > img {
     margin: 5px 5px 5px 20px;
@@ -159,7 +160,7 @@
     font-weight: bold;
   }
   > div > span {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: normal;
     color: #ffffff;
     display: flex;
@@ -179,13 +180,14 @@
   > img {
     margin: 5px 20px 5px 5px;
     border-top-left-radius: 35px;
-    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
   }
   > div > .name {
     font-weight: bold;
   }
   > div > span {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: normal;
     color: #ffffff;
     display: flex;
@@ -193,7 +195,7 @@
   }
 }
 
-@media only screen and (max-width: 964px) {
+@media only screen and (max-width: 1000px) {
   .firstRow {
     display: block;
     margin: 0 auto;
@@ -264,7 +266,7 @@
   }
 }
 
-@media only screen and (min-width: 964px) {
+@media only screen and (min-width: 1000px) {
   .content {
     width: 35%;
   }
