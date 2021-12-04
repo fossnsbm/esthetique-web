@@ -52,6 +52,10 @@ body {
   margin-top: 100px;
 }
 
+.JudgeSection {
+  margin-top: 150px !important;
+}
+
 @media screen and (max-width: 840px) {
   .BackgroundLogomark {
     background-size: 60%;

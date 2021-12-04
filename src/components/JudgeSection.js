@@ -6,7 +6,7 @@ export default function JudgeSection() {
     <div className="wrapper JudgeSection">
       <div className="title">MEET THE PANEL</div>
       <div className="firstRow">
-        <div className="content">Meet Our Judge Panel of ESTHÉTIQUE'21</div>
+        <div className="content">If you have any doubts regarding the hackathon,  Meet the  Esthétique’21 judge panel.</div>
         <div className="judge1">
           <img
             src="https://media-exp1.licdn.com/dms/image/C4E03AQHiFOJ112d9KA/profile-displayphoto-shrink_800_800/0/1516796266106?e=1643846400&v=beta&t=gGoq3n4crdA8bRcQD-aQBvaG2GjxDy0sbOallWRqr98"
