@@ -20,9 +20,9 @@ const NavbarSection = () => {
             <RSLink activeClass="active" spy smooth to="PrizesSection">
               PRIZES
             </RSLink>
-            {/*} <RSLink activeClass="active" spy smooth to="SponsorSection">
+            <RSLink activeClass="active" spy smooth to="JudgeSection">
               JUDGES
-            </RSLink>*/}
+            </RSLink>
             <RSLink activeClass="active" spy smooth to="SponsorSection">
               SPONSORS
             </RSLink>
@@ -38,7 +38,7 @@ const NavbarSection = () => {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
 };
 

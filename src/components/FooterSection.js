@@ -47,6 +47,11 @@ function FooterSection() {
                 </RSLink>
               </span>
               <span>
+                <RSLink activeClass="active" spy smooth to="JudgeSection">
+                  JUDGES
+                </RSLink>
+              </span>
+              <span>
                 <RSLink activeClass="active" spy smooth to="SponsorSection">
                   SPONSORS
                 </RSLink>
@@ -78,13 +83,12 @@ function FooterSection() {
 
         <Grid container direction="row" className="endbr">
           <Grid item xs={12} md={6} className="endbar">
-            <p className="endbrtxt">
-              © 2021 FOSS Community of NSBM
-            </p>
+            <p className="endbrtxt">© 2021 FOSS Community of NSBM</p>
           </Grid>
           <Grid item xs={12} md={6} className="endbar">
             <p align="right" className="endbrtxttwo">
-              &lt;/&gt; with &hearts; by the FOSS Community of NSBM</p>
+              &lt;/&gt; with &hearts; by the FOSS Community of NSBM
+            </p>
           </Grid>
         </Grid>
       </div>

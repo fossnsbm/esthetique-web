@@ -8,6 +8,7 @@ import NavbarSection from "./components/NavbarSection";
 import FooterSection from "./components/FooterSection";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
+import JudgeSection from "./components/JudgeSection";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <HomeSection />
           <IntroSection />
           <PrizesSection />
+          <JudgeSection />
           <SponsorSection />
           <TwitterSection />
           <div className="GradientEclipseFooter" />
