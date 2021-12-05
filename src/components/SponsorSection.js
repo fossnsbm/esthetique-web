@@ -6,6 +6,7 @@ import GoldSponsor from "../assets/gold-sponsor.svg";
 import SilverSponsor from "../assets/silver-sponsor.png";
 import MediaPartner from "../assets/media-partner.png";
 import CoSponsorSatriaana from "../assets/co-sponsor-satriaana.png";
+import LearningPartner from "../assets/learning_partner.png";
 import "./SponsorSection.scss";
 
 function SponsorSection() {
@@ -53,7 +54,7 @@ function SponsorSection() {
           <Grid container direction="row" className="Rectangle" marginBottom="-4%">
             {/* <Grid container direction="row">
             </Grid> */}
-            <Grid ClassName="Prize" item xs={12} md={5} marginBottom="4%" marginLeft="4%" marginTop="3%">
+            <Grid ClassName="Prize" item xs={12} md={4} marginBottom="4%" marginLeft="4%" marginTop="3%">
               <h1 className="SponsorName" style={{ color: 'WHITE' }}>Co-sponsor</h1>
               <img className="CoSponsor" src={CoSponsorSatriaana} alt="1st Prize" />
             </Grid>
@@ -74,9 +75,13 @@ function SponsorSection() {
 
             <Divider sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }} orientation="vertical" style={{ border: "1px solid", borderRadius: "1", color: "white", marginLeft: "2%", marginBottom: "4%", marginTop: "4%" }} flexItem></Divider>
 
-            <Grid className="Prize" item xs={12} md={5} align="center" marginBottom="4%" marginLeft="4%" marginTop="3%">
+            <Grid className="Prize" item xs={12} md={3} align="center" marginLeft="4%" marginTop="3%">
+              <h1 className="SponsorName">Learning Partner</h1>
+              <img className="LearningPartner" src={LearningPartner} alt="Learning Partner" />
+            </Grid>
+            <Grid className="Prize" item xs={12} md={3} align="center" marginBottom="4%" marginLeft="4%" marginTop="3%">
               <h1 className="SponsorName">Official<br />Digital Media Partner</h1>
-              <img className="MediaPartnerImage" src={MediaPartner} alt="1st Prize" />
+              <img className="MediaPartnerImage" src={MediaPartner} alt="Digital Media Partner" />
             </Grid>
           </Grid>
         </Grid>
