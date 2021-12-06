@@ -92,6 +92,23 @@
   }
 }
 
+.heart{
+  height: 13px !important;
+  animation: pound .35s infinite alternate !important;
+  -webkit-animation: pound .35s infinite alternate !important;
+}
+
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .Footer {
     text-align: center;

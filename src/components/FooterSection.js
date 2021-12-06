@@ -4,7 +4,7 @@ import FOSS from "../assets/logoset.png";
 import "./FooterSection.scss";
 import { Link } from "react-router-dom";
 import { Link as RSLink } from "react-scroll";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaHeart } from "react-icons/fa";
 
 function FooterSection() {
   return (
@@ -87,7 +87,7 @@ function FooterSection() {
           </Grid>
           <Grid item xs={12} md={6} className="endbar">
             <p align="right" className="endbrtxttwo">
-              &lt;/&gt; with &hearts; by the FOSS Community of NSBM
+              &lt;/&gt; with <FaHeart class="heart" size={18} color={"#fff"} /> by the FOSS Community of NSBM
             </p>
           </Grid>
         </Grid>
