@@ -58,7 +58,7 @@ export default function JudgeSection() {
             </div>
           </div>
           <div>
-            {/* <div className="judge4">
+             <div className="judge4">
             <div className="details">
               <span className="name">Ishanka T Senavirathna</span>
               <span>Co-Founder & UX Designer at</span>
@@ -83,7 +83,7 @@ export default function JudgeSection() {
               <span>Lecturer at</span>
               <span>NSBM Green University</span>
             </div>
-          </div> */}
+          </div> 
           </div>
         </div>
       </div>
