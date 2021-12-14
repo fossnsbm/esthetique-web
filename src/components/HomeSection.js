@@ -24,8 +24,8 @@ function HomeSection() {
           <Button
             variant="outlined"
             className="RegisterButton"
-            href="https://forms.gle/tT8T4yxTA5bUTvJh6"
-            target="_blank"
+            // href="https://forms.gle/tT8T4yxTA5bUTvJh6"
+            // target="_blank"
           >
             Registration Closed
           </Button>
