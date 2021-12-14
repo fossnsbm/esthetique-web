@@ -27,7 +27,7 @@ function HomeSection() {
             href="https://forms.gle/tT8T4yxTA5bUTvJh6"
             target="_blank"
           >
-            Register Now
+            Registration Closed
           </Button>
         </Grid>
       </Grid>

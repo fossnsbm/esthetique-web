@@ -27,15 +27,7 @@ const NavbarSection = () => {
               SPONSORS
             </RSLink>
           </div>
-          <div>
-            <a
-              href="https://forms.gle/tT8T4yxTA5bUTvJh6"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Button className="navBtn">REGISTER</Button>
-            </a>
-          </div>
+         
         </div>
       </div>
     </div>
