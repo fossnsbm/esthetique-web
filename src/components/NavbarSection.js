@@ -2,7 +2,7 @@ import "./NavbarSection.scss";
 import logo from "../assets/logo.svg";
 import { Link } from "react-router-dom";
 import { Link as RSLink } from "react-scroll";
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
 
 const NavbarSection = () => {
   return (
@@ -28,13 +28,12 @@ const NavbarSection = () => {
             </RSLink>
           </div>
           <div>
-            <a
+           {/* <a
               href="https://forms.gle/tT8T4yxTA5bUTvJh6"
               target="_blank"
               rel="noreferrer"
             >
-              <Button className="navBtn">REGISTER</Button>
-            </a>
+              <Button className="navBtn">REGISTER</Button>       </a> */}
           </div>
         </div>
       </div>
